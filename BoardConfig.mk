@@ -92,14 +92,14 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 9.0
-TW_DEVICE_VERSION := IHU519G by Ashuai
+# TW_DEVICE_VERSION := IHU519G by Ashuai
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/bat_gm30/power_supply/battery
+# TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/bat_gm30/power_supply/battery
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 128
