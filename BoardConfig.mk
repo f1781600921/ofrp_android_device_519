@@ -123,7 +123,7 @@ TW_NEW_ION_HEAP := true
 TW_SCREEN_BLANK_ON_BOOT := true
 
 # zh_CN
-TW_EXTRA_LANGUAGES := true
+# TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := "zh_CN"
 
 # Debugging
