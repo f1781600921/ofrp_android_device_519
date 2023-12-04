@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_IHU519G.mk
+    $(LOCAL_DIR)/omni_IHU519G.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_IHU519G-user \
-    twrp_IHU519G-userdebug \
-    twrp_IHU519G-eng
+    omni_IHU519G-user \
+    omni_IHU519G-userdebug \
+    omni_IHU519G-eng
